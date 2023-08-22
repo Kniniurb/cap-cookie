@@ -5,8 +5,13 @@ const config: CapacitorConfig = {
   appName: 'cap-cookie',
   webDir: 'www',
   server: {
-    androidScheme: 'https'
-  }
+    androidScheme: 'https',
+  },
+  plugins: {
+    CapacitorCookies: {
+      enabled: true,
+    },
+  },
 };
 
 export default config;
