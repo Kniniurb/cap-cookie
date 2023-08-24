@@ -5,7 +5,7 @@ const config: CapacitorConfig = {
   appName: 'cap-cookie',
   webDir: 'www',
   server: {
-    androidScheme: 'https',
+    androidScheme: 'vfapp',
   },
   plugins: {
     CapacitorHttp: {
